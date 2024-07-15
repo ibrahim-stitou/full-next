@@ -30,7 +30,7 @@ const customers = [
   },
   {
     id: '76d65c26-f784-44a2-ac19-586678f7c2f2',
-    name: 'Michael Novotny',
+    name: 'Michael Novotnyyy',
     email: 'michael@novotny.com',
     image_url: '/customers/michael-novotny.png',
   },
@@ -69,7 +69,7 @@ const invoices = [
   },
   {
     customer_id: customers[3].id,
-    amount: 44800,
+    amount: 44900,
     status: 'paid',
     date: '2023-09-10',
   },
@@ -141,7 +141,7 @@ const revenue = [
   { month: 'Sep', revenue: 2500 },
   { month: 'Oct', revenue: 2800 },
   { month: 'Nov', revenue: 3000 },
-  { month: 'Dec', revenue: 4800 },
+  { month: 'Dec', revenue: 4900 },
 ];
 
 export { users, customers, invoices, revenue };
